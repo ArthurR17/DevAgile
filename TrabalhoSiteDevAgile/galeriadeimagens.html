@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset='utf-8'>
+ <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+ <title>DEV.Agile </title>
+ <meta name='viewport' content='width=device-width, initial-scale=1'>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+ <link rel='stylesheet' type='text/css' media='screen' href='_css/landingpage.css'>
+ <link rel='stylesheet' type='text/css' media='screen' href='_css/galeria.css'>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <script src='main.js'></script>
+
+ <script>
+    var indicators = document.querySelectorAll('#carouselExampleIndicators .carousel-indicators li');
+    var carousel = document.querySelector('#carouselExampleIndicators');
+  
+    carousel.addEventListener('slide.bs.carousel', function () {
+      for (var i = 0; i < indicators.length; i++) {
+        indicators[i].classList.remove('active');
+      }
+  
+      indicators[carousel.querySelector('.active').getAttribute('data-bs-slide-to')].classList.add('active');
+    });
+  </script>
+  
+</head>
+<body>
+  <a href="landingpage.html"><img src="_imagens/devagilelogo.png"></a>
+  <div id="botao2">
+  <a href="/registrar.html"><button id="estilo">Registrar</button></a>
+  </div>
+  
+  
+  <div id="linha2""></div>
+  
+  
+  <video autoplay muted loop id="bg-video">
+    <source src="_imagens/videoplayback (1).mp4" type="video/mp4">
+  </video>
+  
+
+  <a id="click"  href="#"><i class="fa fa-search"></i></a>
+  <a id="click"  href="#"><i class="fa fa-globe"></i></a>
+
+
+  <div id="menu" style="width: 100%">
+    <ul id="menu-cor">
+      
+      <li class="dropdown">
+        <a id="underline" href="#">Produtos <i class="fa fa-caret-down"></i></a>
+        <ul class="dropdown-content">
+          <ol class="espaco">
+            <h3>Web Design</h3>
+            <p>Descubra todas as soluções para criar seu site na Dev. Agile</p>
+          <li>
+            <h3>Templates</h3>
+            <p>Explore mais de 500 templates feitos por designers.</p>
+          </li>
+          <li>
+            <h3>Editor Dev</h3>
+            <p>Controle do design com grades flexíveis e breakpoints personalizados.</p>
+          </li>
+        </ol>
+          
+          <ol>
+              <h3>Ferramentas essenciais</h3>
+            </ol>
+              <ol id="lista">
+                <ol id="lista1">
+              <li><a id="lista" href="#">• Nome de domínio personalizado</a></li>
+              <br>
+              <li><a id="lista" href="#">• Hospedagem de site</a></li>
+              <br>
+              <li><a id="lista" href="#">• Criador de Logo</a></li>
+              <br>
+              <li><a id="lista" href="#">• Ferramentas de SEO</a></li>
+            </ol>
+              </ol>
+            
+          
+          <ol id="link" class="espaco2">
+            <h3>Torne-se nosso parceiro</h3>
+            <p id="link"><i>Aproveite benefícios exclusivos para parceiros e impusione seus negócios</i> <i class="fa fa-arrow-right"></i></p>
+          </ol>
+        </ul>
+      </li>
+      
+        <li id="fonte"><a id="click" href="
+          galeriadeimagens.html">Galeria</a></li>
+        <li id="fonte"><a id="click"  href="/sobrenos.html">Sobre Nós</a></li>
+        <li id="fonte"><a id="click"  href="/centraldeajuda.html">Central de Ajuda</a></li>
+        <li id="fonte"><a id="click"  href=""></a></li>
+        <li id="fonte"><a id="click"  href=""></a></li>
+
+        
+        
+  
+    </ul>
+  </div>
+  <h2 class="my-3">Nossos exemplos</h2>
+<div class="container mb-5">
+    
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+       
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="_imagens/site1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="_imagens/site2.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="_imagens/site3.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="_imagens/site4.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+      <ol class="carousel-indicators carousel-indicators-custom">
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
+      </ol>
+      
+      
+    </div>
+    
+  </div>
+  
+  
+
+  <footer class="rodape">
+    <div>2023 TODOS OS DIREITOS RESERVADOS ®</div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

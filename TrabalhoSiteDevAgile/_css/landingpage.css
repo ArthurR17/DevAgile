@@ -1,0 +1,307 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+
+body{
+ background-color: #F1FDFF;
+ letter-spacing: 0.05em;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+#menu{
+ text-align: center;
+}
+
+
+#menu-cor{
+ padding: 24px;
+ margin: 0px;
+ background-color: #023E8A;
+ list-style: none;
+}
+
+#menu ul li {
+ display: inline
+}
+
+#menu a {
+ font-weight: bold;
+ padding: 10px 30px;
+ display: inline-block;
+ color: white;
+ text-decoration: none;
+ font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-size: 20px;
+ margin: 0px 20px;
+}
+
+#fonte a{
+  font-weight: bold;
+ padding: 10px 30px;
+ display: inline-block;
+ color: white;
+ text-decoration: none;
+ font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-size: 20px;
+ margin: 0px 20px;
+}
+
+img{
+ border-radius: 100%;
+ display:flex;
+ margin: 0px 30px;
+ position: absolute;
+ width: 100px;
+}
+
+
+h1{
+ font-size:48px;
+ margin: 100px;
+ text-align: center;
+ color: #023E8A;
+}
+
+h3{
+ letter-spacing: 3px;
+ font-weight:600;
+ text-align: center;
+ font-size: 32px;
+ color: #03045E;
+}
+
+
+h2{
+ letter-spacing: 3px;
+ font-weight:bolder;
+ text-align: left;
+ margin: 0px 100px;
+ font-size: 38px;
+ color: #023E8A;
+}
+
+#botao1 {
+ color: #03045E;
+ font-weight: bolder;
+ background-color: #90E0EF;
+ border-radius: 20px;
+ border: 1.5px solid black;
+ display: block;
+ margin: 55px auto;
+ font-size: 24px;
+ padding: 10px 50px 10px 30px;
+}
+
+#estilo{
+ text-align: center;
+ padding: 4px 23px 4px 23px;
+}
+
+#botao2 button{
+ position: absolute;
+ color: #F1FDFF;
+ font-weight: bolder;
+ border: 1.5px solid black;
+ background-color: #90E0EF;
+ border-radius: 20px;
+ display: flex;
+ font-size: 24px;
+ margin: 28px 87%;
+}
+
+#botao2:hover{
+  background-color: #000000;
+}
+
+#linha1{
+ margin: 80px 40px;
+ opacity: 100%;
+ border: 1px solid black;
+}
+
+
+
+.texto{
+ letter-spacing: 2px;
+ color: #03045E;
+ font-weight: 600;
+ margin: 30px;
+ text-align: justify;
+ font-size: 28px
+}
+
+.btn-icon {
+ position: relative;
+}
+
+.btn-icon i {
+ position: absolute;
+ top: 50%;
+ right: 18px; /* ajuste conforme o tamanho do ícone */
+ transform: translateY(-50%);
+}
+
+
+
+#menu li.dropdown {
+ position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 8px 8px 16px 1px rgba(0,0,0,0.2);
+  z-index: 1;
+  left: 200%;
+  transform: translateX(-50%);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+#menu li.dropdown .dropdown-content {
+  margin-top: 100px;
+
+ margin: 0px 42px;
+ display: none;
+ position: absolute;
+ background-color: #C9F7FF;
+ min-width: 850px;
+ min-height: 640px;
+ z-index: 1;
+}
+
+#menu li.dropdown:hover .dropdown-content {
+ display: block;
+ cursor: pointer;
+}
+
+
+
+#underline:hover{
+  text-decoration: underline #FDC50D;
+  text-decoration-thickness: 4px;
+  cursor: pointer;
+}
+
+#click:hover{
+  text-decoration: underline #FDC50D;
+  text-decoration-thickness: 4px;
+  cursor: pointer;
+}
+
+#menu li.dropdown-content a {
+ color: black;
+ padding: 12px 16px;
+ text-decoration: none;
+ display: block;
+ text-align: left;
+}
+
+#menu li.dropdown-content a:hover {
+ background-color: #C9F7FF;
+}
+
+#bg-video {
+ filter: hue-rotate(10deg) brightness(100%) opacity(0.2);
+ position: fixed;
+ right: 0;
+ bottom: 0;
+ min-width: 100%;
+ min-height: 100%;
+ width: auto;
+ height: auto;
+ z-index: -1;
+}
+
+.dropdown h3, p{
+ text-align: left;
+
+}
+
+#lista li a{
+  color: black;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+#lista a:hover{
+  color: blue;
+  text-decoration: none;
+}
+
+#lista1{
+  text-align:left;
+  text-decoration: none;
+  background-color: #C9F7FF;
+}
+
+.fa-search {
+  position: absolute;
+  margin: 40px;
+  color: white;
+  margin-left: 150vh;
+  transform: scale(2.3);
+}
+
+.fa-globe{
+  position: absolute;
+  color: white;
+  left: 161vh;
+  margin: 41px;
+  transform: scale(2.4);
+}
+
+p{
+  font-size: 20px;
+}
+
+#link:hover{
+  color: blue;
+}
+
+.dropdown-content h3:hover{
+  color: blue;
+}
+
+.rodape{
+  background-color: #023E8A;
+  height: 70px;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  color: #f9f9f9;
+  font-weight: bold;
+}
+
+#linha2{
+   position: absolute;
+    left: 79%;
+    top: 25px;
+    height: 50px;
+    width: 3px;
+    background-color: #ffffff;
+    z-index: 1;
+}
+
+.espaco{
+  margin-top: 30px;
+}
+
+.espaco2{
+  margin-bottom: 40px;
+}
+
+#estilo:hover{
+  background-color:#6acee0;
+}
+
+#botao1:hover{
+  background-color: rgb(113, 211, 228);
+}
